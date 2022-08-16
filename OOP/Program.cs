@@ -11,9 +11,9 @@ addAnimal("Fedor", 8, 4.5);
 
 void addAnimal(string name, int age, double size)
 {
-    Console.WriteLine("добавить имя" + name);
-    Console.WriteLine("добавить возраст" + age);
-    Console.WriteLine("добавить размер" + size);
+    Console.WriteLine("добавить имя" + name +  " !");
+    Console.WriteLine("добавить возраст" + age +  " !");
+    Console.WriteLine("добавить размер" + size +  " !");
 }
 
 /*printSomething(false);
