@@ -1,6 +1,6 @@
 ﻿using System;
 
-class Animal
+public abstract class Animal
 {
     public Animal(int age)
     {
@@ -10,8 +10,8 @@ class Animal
     public Animal()
     { }
 
-    private int age;
-    private int legs;
+    public int age;
+    protected int legs;
     private bool isFur;
 
     public Animal(int age, int legs, bool isFur)
@@ -21,12 +21,12 @@ class Animal
         this.isFur = isFur;
     }
 
-    void say(string a)
+    public void Say()
     {
-        Console.WriteLine(a);
+        Console.WriteLine("Animal Say");
     }
 
-    bool eat()
+    protected bool Eat()
     {
         Console.WriteLine("EAT!!!");
         return true;
